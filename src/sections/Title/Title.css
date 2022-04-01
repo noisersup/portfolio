@@ -1,0 +1,44 @@
+.title-container {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: fit-content;
+}
+.title-nav{
+	height:80px;
+}
+.title-content {
+	width:80%;
+}
+.title-btns{
+	padding:20px 0;
+}
+.cli-comment{
+	color: gray;
+}
+.cli-container{
+	font-size: 60px;
+	min-height:260px;
+}
+.cli-firstname{
+	font-weight: bold;
+}
+.btn {
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,10%);
+	width: 120px;
+	padding: 11px 0;
+}
+* {
+	text-align: left;
+}
+
+@keyframes resize-logo {
+	from {font-size:60px}
+	to {font-size:100px}
+}
