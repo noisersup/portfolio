@@ -1,0 +1,86 @@
+.about-container{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about-content{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+
+	max-width: 1000px;
+	margin: 0 20px;
+}
+.about-content p {
+	color: #282c34;
+	font-size: 18px;
+	line-height:130%;
+}
+
+.about-content p a{
+	color: lightgreen;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+
+.about-content p a:hover{
+	color: #282c34;
+	transition: 0.3s;
+}
+
+.about-interests{
+	display:inline-block;
+	font-weight:bold;
+	margin:0;
+	min-width:210px;
+}
+
+.techstack-content{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.techstack-container{
+	width:100%;
+}
+
+.techstack-grid{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-auto-rows: 40px;
+	column-gap: 7px;
+	row-gap: 7px;
+}
+
+.tech{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-color: lightgreen;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:20px;
+	color: #282c34;
+	transition: 0.2s;
+}
+
+.tech:hover{
+	transition: 0.2s;
+	background-color: #282c34;
+	color: #fff;
+}
+
+.techstack-more {
+	width:200px;
+}
+
+.techstack-more-content {
+	font-weight:bold;
+	font-size: 25px !important;
+}
