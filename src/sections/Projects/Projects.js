@@ -1,5 +1,6 @@
 import './Projects.css'
 import Heading from '../../components/Heading/Heading.js'
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 export default function Projects(){
 	return (
@@ -10,7 +11,7 @@ export default function Projects(){
 						title='File Storage'
 						img='/filestorage.gif'
 						tech={["Go","REST API","Redis","Cockroach","React","docker"]}
-						url='github.com/noisersup/file-storage'>
+						url='https://github.com/noisersup/file-storage'>
 							An encrypted file storage made in <b>Go</b> with user
 							authentication system based on <b>Redis</b> cache.
 							Implemented memory optimized <b>multipart
@@ -26,7 +27,7 @@ export default function Projects(){
 						left
 						tech={["Go","API","Reverse-engineering","bubbletea"]}
 						img='/ledyt.gif'
-						url='github.com/noisersup/ledyt'>
+						url='https://github.com/noisersup/ledyt'>
 						Minimalist CLI youtube client written in <b>Go</b> for
 						efficient and lightweight content playback in MPV.<br/>
 						Powered by <b>bubbletea</b> framework
@@ -35,7 +36,7 @@ export default function Projects(){
 						title='CHIP-8'
 						tech={["Go","Emulation","Binary","OpenGL"]}
 						img='/chip8.gif'
-						url='github.com/noisersup/file-storage'>
+						url='https://github.com/noisersup/file-storage'>
 
 						An emulator of the CHIP-8 platform made in <b>Go
 						</b> with display in <b>OpenGL</b>
@@ -60,7 +61,10 @@ export function Project(props){
 		<div className={"project-container"+ (props.left ? '' : ' left')}>
 			<img src={props.img}></img>
 			<div className='project-content'>
-				<h2 className="project-title">{props.title}</h2>
+				<div className='project-title-container'>
+					<h2 className="project-title">{props.title}</h2>
+					<a href={props.url}><FontAwesomeIcon icon={'fab fa-github'} /></a>
+				</div>
 				<div className='desc-container'>
 					<p>{props.children}</p>
 				</div>

@@ -66,6 +66,30 @@
 	flex-direction: row-reverse;
 }
 
+
+
+.project-title-container{
+	display: flex;
+	align-items:center;
+	flex-direction: row-reverse;
+	gap: 10px;
+}
+.project-title-container a{
+	text-decoration:none;
+	color: inherit;
+	font-size:20px;
+	transition: 0.2s;
+}
+.project-title-container a:hover{
+	color: lightgreen;
+	font-size:21px;
+	transition: 0.2s;
+}
+
+.project-container.left .project-title-container{
+	flex-direction: row;
+}
+
 .project-container.left *{
 	text-align:left !important;
 }
