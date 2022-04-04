@@ -66,7 +66,7 @@ export function Techstack(props){
 					})}
 				</div>
 				<div className='techstack-more'>
-					<h3>I also had experience with:</h3>
+					<h3>I also have experience with:</h3>
 					<Typical className="techstack-more-content"
 						loop={Infinity}
 						steps={more}

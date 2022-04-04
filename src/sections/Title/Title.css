@@ -26,6 +26,8 @@
 }
 
 .title-btns{
+	display: flex;
+	gap: 15px;
 	padding:20px 0;
 	margin-bottom: 201px;
 }
@@ -43,12 +45,24 @@
 	transition: 0.3s;
 }
 
+.btn-out {
+	color: #fff;
+	background-color: #282c34;
+	border-color: lightgreen;
+	height: 47px;
+}
+
 .btn:hover{
 	transition: 0.3s;
 	background-color: #282c34;
 	border-color: lightgreen;
 	color: #fff;
 	cursor: pointer;
+}
+
+.btn-out:hover{
+	border-color: #fff;
+	color: lightgreen;
 }
 
 * {

@@ -22,6 +22,9 @@ export default function Title () {
 					<button className="btn" onClick={()=>{
 						document.getElementById('contact').scrollIntoView();
 					}}>Hire Me</button>
+					<button className="btn btn-out" onClick={()=>{
+						window.location.href='/Resume (online version).pdf';
+					}}>Get Resume</button>
 				</div>
 			</div>
 			<div class="custom-shape-divider-bottom-1648840680">
