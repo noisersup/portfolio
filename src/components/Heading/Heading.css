@@ -32,3 +32,7 @@
 	border-radius: 10px;
   background-color: lightgreen;
 }
+
+.inv-heading .seperator-line{
+	background-color: white !important;
+}

@@ -18,7 +18,7 @@ export default function About () {
 				/>
 				</span>
 				<br/>and more...<br/>
-				Located in <b>Warsaw, Poland</b> but open for <b>remote work.</b><br/>
+				Located in <b>Warsaw, Poland</b> but also open for <b>remote work.</b><br/>
 				Looking for collaboration? <a href="#contact">Contact me</a>! I usually reply within a few hours. 
 				</p>
 				<Techstack

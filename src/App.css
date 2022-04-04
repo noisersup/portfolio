@@ -1,14 +1,16 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 html {
   scroll-behavior: smooth;
 }
-.App-header {
- /* min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);*/
-  /*color: white;*/
+.App, .App-header, #root {
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .h-wrapper {
@@ -72,4 +74,44 @@ html {
 	font-size: 40px !important;
 }
 
+}
+
+@media only screen and (max-width: 525px){
+	.cli-container{
+		min-width: 100% !important;
+		font-size: 40px !important;
+	}
+	.techstack-grid{
+		grid-template-columns: 150px 150px !important;
+	} 
+
+	.techstack-more h3 {
+		font-size: 16px;
+	}
+
+	.techstack-more-content p{
+		font-size: 22px !important;
+	}
+	.contact-social a {
+		font-size: 15px;
+	}
+	.contact-horizontal{
+		justify-content:center;
+		align-items: center;
+		flex-direction: column !important;
+	}
+	.contact-note {
+		margin:0 !important;
+		width: 100% !important;
+	}
+	.contact-note h3{
+		text-align:center;
+	}
+	.contact-info{
+		width: 100% !important;
+		display: flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+	}
 }

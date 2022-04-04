@@ -12,7 +12,7 @@ export default function Contact(){
 	return (
 		<div className='contact-container' id='contact'>
 				<div className='contact-content'>
-					<Heading>Contact</Heading>
+					<Heading inv>Contact</Heading>
 					<div className='contact-horizontal'>
 						<div className='contact-note'>
 							<h3>You can find me here:</h3>
