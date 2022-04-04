@@ -6,7 +6,7 @@ export default function About () {
 	return (
 		<div className='about-container'>
 			<Heading>About me</Heading>
-			<div className='about-content'>
+			<div className='about-content h-wrapper'>
 				<p>
 				I am ambitious and passionate web developer, fascinated in <b>backend</b> technologies. Interested in
 				software since 13.<br/>
@@ -53,7 +53,7 @@ export function Techstack(props){
 	more.push("and more...")
 	more.push(1200);
 	return(
-		<div className='techstack-container'>
+		<div className='techstack-container h-wrapper'>
 			<h2>Technologies I used...</h2>
 			<div className='techstack-content'>
 				<div className='techstack-grid'>
@@ -67,10 +67,12 @@ export function Techstack(props){
 				</div>
 				<div className='techstack-more'>
 					<h3>I also have experience with:</h3>
-					<Typical className="techstack-more-content"
-						loop={Infinity}
-						steps={more}
-					/>
+					<div className="techstack-more-content">
+					  <Typical 
+						  loop={Infinity}
+						  steps={more}
+					  />
+					</div>
 				</div>
 			</div>
 		</div>

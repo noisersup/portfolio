@@ -34,6 +34,7 @@
 }
 
 .project-container img {
+	border-radius: 5px;
 	flex-grow:1;
 	width:50%;
 	max-width: 100%;
@@ -61,7 +62,7 @@
 }
 
 .project-container.left{
-	flex-direction: row-reverse !important;
+	flex-direction: row-reverse;
 }
 
 .project-container.left *{
@@ -69,7 +70,7 @@
 }
 
 .project-container.left .project-content{
-	left: +50px !important;
+	left: +50px;
 }
 
 .project-container.left .projects-techstack{

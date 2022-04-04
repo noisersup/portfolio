@@ -10,3 +10,66 @@ html {
   font-size: calc(10px + 2vmin);*/
   /*color: white;*/
 }
+
+.h-wrapper {
+	max-width:1000px;
+}
+
+@media only screen and (max-width: 898px){
+.h-wrapper {
+	width: 80%;
+	max-width:800px;
+}
+
+.techstack-content{
+	flex-direction: column;
+}
+.techstack-grid{
+	grid-template-columns: 150px 150px 150px !important;
+} 
+.tech{
+	font-size: 16px !important;
+}
+
+.techstack-more {
+	width: 100% !important;
+}
+
+.techstack-more h3 {
+	width: 50%;
+	min-width: 200px !important;
+	text-align: right;
+}
+.techstack-more{
+	flex-direction:row !important;
+	justify-content:center;
+	align-items: center;
+}
+.techstack-more-content {
+	min-width: 50%;
+	margin-top: 25px !important;
+	justify-content:center;
+	align-items: center;
+}	
+.techstack-more-content *{
+	margin-left: 20px;
+}
+
+.project-container {
+	flex-direction: column !important;
+	margin-bottom:80px !important;
+}
+.project-container img{
+	width: 100% !important;
+	border-radius: 15px !important;
+}
+.project-content{
+	left: 0 !important;
+	width: 100% !important;
+}
+
+.social-icon *{
+	font-size: 40px !important;
+}
+
+}

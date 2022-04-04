@@ -11,7 +11,6 @@
 	align-items: center;
 	flex-direction: column;
 
-	max-width: 1000px;
 	margin: 0 20px;
 }
 .about-content p {
@@ -78,9 +77,12 @@
 
 .techstack-more {
 	width:200px;
+	display:flex;
+	flex-direction:column;
 }
 
-.techstack-more-content {
+.techstack-more-content *{
 	font-weight:bold;
+	margin-top: 0;
 	font-size: 25px !important;
 }
