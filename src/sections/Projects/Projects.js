@@ -36,7 +36,7 @@ export default function Projects(){
 						title='CHIP-8'
 						tech={["Go","Emulation","Binary","OpenGL"]}
 						img='/chip8.gif'
-						url='https://github.com/noisersup/file-storage'>
+						url='https://github.com/noisersup/chip8'>
 
 						An emulator of the CHIP-8 platform made in <b>Go
 						</b> with display in <b>OpenGL</b>
