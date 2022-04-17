@@ -9,7 +9,7 @@ export default function About () {
 			<div className='about-content h-wrapper'>
 				<p>
 				I am ambitious and passionate web developer, fascinated in <b>backend</b> technologies. Interested in
-				software since 13.<br/>
+				software since the age of 13.<br/>
 				On my daily basis, I spend 110% of my time on <span>
 				<Typical
 					className='about-interests'
@@ -36,7 +36,7 @@ export default function About () {
 						{name: 'CockroachDB'},
 						{name: 'PostgreSQL'},
 					]}
-					more={["Python","Java",".NET","Vue.js","Solidity", "Unity","C++"]}
+					more={["Python","Java","C#","Ansible","AWS","gRPC","Solidity", "Unity","C++","Vue.js"]}
 				/>
 			</div>
 		</div>
